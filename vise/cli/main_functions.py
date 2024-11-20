@@ -6,7 +6,7 @@ from copy import deepcopy
 from pathlib import Path
 
 import yaml
-from mp_api.client import MPRester
+from pymatgen.ext.matproj import MPRester
 from pymatgen.core import Structure
 from pymatgen.io.vasp import Vasprun, Outcar
 from tabulate import tabulate
